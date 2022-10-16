@@ -23,9 +23,12 @@ class Point {
 
 const swap = <T>(a: T, b: T, condition: boolean): [T, T] => condition ? [b, a] : [a, b];
 
+// When the arrow declaration is as long as the function itself
 const genEquation = (point1: Point, point2: Point, func: (a: number) => number, printFunc: (a: string) => string, inverted: boolean, opposite: boolean): string => {
+    // This syntax was kind of sketchy already
    let [[x1, y1], [x2, y2]] = swap(swap(point1.x, point1.y, inverted), swap(point2.x, point2.y, inverted), opposite); 
    //y=a*f(x-h)+k
+   // Hmmm needs more nested string literals
    return `${inverted ? 'x' : 'y'}=${(y2-y1) / func(x2-x1)}${printFunc(`${inverted ? 'y' : 'x'}-${x1}`)}+${y1}\\left\\{${Math.min(x1,x2)}<${inverted ? 'y' : 'x'}<${Math.max(x1,x2)}\\right\\}`;
 };
 
