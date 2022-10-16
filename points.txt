@@ -1,0 +1,459 @@
+(5, -3.4) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Circle"
+
+(3.5, -5) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-2.8, -5) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "NONE" },
+}
+
+"Circle"
+
+(-4.3, -3.5) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-4.3, -0.5) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-4.05, -0.5) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-4.05, 1.55) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-3.37, 2.3) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-2.5, 1.41) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Exponential"
+
+(-2.7, 0.92) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-3.23, 0.92) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-3.23, -0.51) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-2.82, -0.51) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-2.4, 0.9) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -o"
+
+(-2.23, 1.19) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Circle"
+
+(-2, 1.46) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.7, 1.38) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.93, 4) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.95, 4.01) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.91, 4.44) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.65, 4.99) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.32, 4.89) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.4, 4.29) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.6, 3.9) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.62, 3.91) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.4, 1.29) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.15, 1.21) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Circle"
+
+(-1.08, 0.85) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic"
+
+(-1.07, 0.62) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.4, -0.51) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.65, -0.51) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.08, -0.08) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.9, 0.55) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-0.9, 0.72) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i"
+
+(-1.05, 1.31) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.19, 1.35) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(-1.14, 1.5) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(0.7, -0.35) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Cubic -i -o"
+
+(0.79, -0.51) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(0.94, -0.51) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Cubic -i -o"
+
+(0.8, -0.25) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(0.45, 0.1) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(1.83, 1.74) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i"
+
+(1.97, 3.4) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -o"
+
+(3.17, 4) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i"
+
+(3.26, 3.8) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(2.6, 2.95) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(2.96, 2.15) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(3.81, 1.98) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(4.47, 2.81) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic"
+
+(4.7, 2.8) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i"
+
+(4.3, 1.38) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -o"
+
+(2.82, 0.96) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(1.75, -0.51) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(3.93, -0.51) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(3.93, 0.95) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic"
+
+(4.75, 1.6) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(4.75, -0.5) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Linear"
+
+(5, -0.5) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+errorHidden: true,
+}
+
+"Linear"
+
+(5, -3.4) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+(-3, 3.08) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Cubic -o"
+
+(-2, 3.86) @{
+color: "#6042a6",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+(-3.5, 2.55) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Exponential"
+
+(-3.7, 2.14) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+""
+
+(-5, 2.58) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+(-4.13, 1.71) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+(-3.7, 2.14) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
