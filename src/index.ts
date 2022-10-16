@@ -33,27 +33,38 @@ const genEquation = (point1: Point, point2: Point, func: (a: number) => number, 
 };
 
 const calcLine = (point1: Point, point2: Point, type: string) => {
+    if (type == 'Linear') {
+        if (point1.x == point2.x) {
+            return `x=${point1.x}\\left\\{${Math.min(point1.y,point2.y)}<y<${Math.max(point1.y,point2.y)}\\right\\}`;
+        } else if (point1.y == point2.y) {
+            return `y=${point1.y}\\left\\{${Math.min(point1.x,point2.x)}<x<${Math.max(point1.x,point2.x)}\\right\\}`;
+        } else{
+            const m = (point1.y - point2.y) / (point1.x - point2.x);
+            return `y=${m}x+${point1.y - m*point1.x}\\left\\{${Math.min(point1.x,point2.x)}<x<${Math.max(point1.x,point2.x)}\\right\\}`;
+        }
+    }
+
     const opts = type.split(' ');
     const command = opts.shift();
     const inverted = opts.includes('-i');
     const opposite = opts.includes('-o');
-    switch(command) {
-        case 'Linear':
-            if (point1.x == point2.x) {
-                return `x=${point1.x}\\left\\{${Math.min(point1.y,point2.y)}<y<${Math.max(point1.y,point2.y)}\\right\\}`;
-            } else if (point1.y == point2.y) {
-                return `y=${point1.y}\\left\\{${Math.min(point1.x,point2.x)}<x<${Math.max(point1.x,point2.x)}\\right\\}`;
-            } else{
-                const m = (point1.y - point2.y) / (point1.x - point2.x);
-                return `y=${m}x+${point1.y - m*point1.x}\\left\\{${Math.min(point1.x,point2.x)}<x<${Math.max(point1.x,point2.x)}\\right\\}`;
-            }
+
+    let func: (a: number) => number;
+    let printFunc: (a: string) => string;
+
+    switch (command) {
         case 'Quadratic':
-            return genEquation(point1, point2, (a) => Math.pow(a, 2), (a) => `\\left(${a}\\right)^{2}`, inverted, opposite);
+            func = (a) => Math.pow(a, 2);
+            printFunc = (a) => `\\left(${a}\\right)^{2}`;
+            break;
         case 'Cubic':
-            return genEquation(point1, point2, (a) => Math.pow(a, 3), (a) => `\\left(${a}\\right)^{3}`, inverted, opposite);
+            func = (a) => Math.pow(a,3);
+            printFunc = (a) => `\\left(${a}\\right)^{3}`;
+            break;
         default:
             return '';
     }
+    return genEquation(point1, point2, func, printFunc, inverted, opposite);
 }
 
 fs.readFile('./points.txt', 'utf8', (err: any, data: string) => {
