@@ -21,15 +21,46 @@ class Point {
     }
 }
 
+class FunctionType {
+    func: (a: number) => number;
+    printFunc: (a: string) => string;
+    constructor(func: (a: number) => number, printFunc: (a: string) => string) {
+        this.func = func;
+        this.printFunc = printFunc;
+    }
+}
+
+const functionTypes: Record<string, FunctionType> = {
+    Quadratic: new FunctionType(
+        (a: number) => Math.pow(a, 2),
+        (a: string) => `\\left(${a}\\right)^{2}`
+    ),
+    Cubic: new FunctionType(
+        (a: number) => Math.pow(a,3),
+        (a: string) => `\\left(${a}\\right)^{3}`
+    )
+};
+
 const swap = <T>(a: T, b: T, condition: boolean): [T, T] => condition ? [b, a] : [a, b];
 
-// When the arrow declaration is as long as the function itself
-const genEquation = (point1: Point, point2: Point, func: (a: number) => number, printFunc: (a: string) => string, inverted: boolean, opposite: boolean): string => {
-    // This syntax was kind of sketchy already
-   let [[x1, y1], [x2, y2]] = swap(swap(point1.x, point1.y, inverted), swap(point2.x, point2.y, inverted), opposite); 
-   //y=a*f(x-h)+k
-   // Hmmm needs more nested string literals
-   return `${inverted ? 'x' : 'y'}=${(y2-y1) / func(x2-x1)}${printFunc(`${inverted ? 'y' : 'x'}-${x1}`)}+${y1}\\left\\{${Math.min(x1,x2)}<${inverted ? 'y' : 'x'}<${Math.max(x1,x2)}\\right\\}`;
+const genEquation = (
+    point1: Point, point2: Point,
+    func: (a: number) => number, printFunc: (a: string) => string,
+    inverted: boolean, opposite: boolean
+): string => {
+    const [[x1, y1], [x2, y2]] = swap(
+        swap(point1.x, point1.y, inverted),
+        swap(point2.x, point2.y, inverted),
+    opposite); 
+    //y=a*f(x-h)+k
+    const a = (y2-y1) / func(x2-x1);
+    const h = x1;
+    const k = y1;
+    const d1 = Math.min(x1,x2);
+    const d2 = Math.max(x1,x2);
+    const ind = inverted ? 'y' : 'x';
+    const dep = inverted ? 'x' : 'y';
+    return `${dep}=${a}${printFunc(`${ind}-${h}`)}+${k}\\left\\{${d1}<${ind}<${d2}\\right\\}`;
 };
 
 const calcLine = (point1: Point, point2: Point, type: string) => {
@@ -45,26 +76,14 @@ const calcLine = (point1: Point, point2: Point, type: string) => {
     }
 
     const opts = type.split(' ');
-    const command = opts.shift();
+    const command= opts.shift();
     const inverted = opts.includes('-i');
     const opposite = opts.includes('-o');
 
-    let func: (a: number) => number;
-    let printFunc: (a: string) => string;
-
-    switch (command) {
-        case 'Quadratic':
-            func = (a) => Math.pow(a, 2);
-            printFunc = (a) => `\\left(${a}\\right)^{2}`;
-            break;
-        case 'Cubic':
-            func = (a) => Math.pow(a,3);
-            printFunc = (a) => `\\left(${a}\\right)^{3}`;
-            break;
-        default:
-            return '';
+    if (command != null && command in functionTypes) {
+        return genEquation(point1, point2, functionTypes[command].func, functionTypes[command].printFunc, inverted, opposite);
     }
-    return genEquation(point1, point2, func, printFunc, inverted, opposite);
+    return '';
 }
 
 fs.readFile('./points.txt', 'utf8', (err: any, data: string) => {

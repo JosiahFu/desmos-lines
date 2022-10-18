@@ -1,4 +1,4 @@
-(5, -3.4) @{
+(5, -3.5) @{
 color: "#2d70b3",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
@@ -192,7 +192,14 @@ color: "#2d70b3",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
-"Quadratic"
+"Quadratic -o -i"
+
+(-1.05, 0.72) @{
+color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i"
 
 (-1.07, 0.62) @{
 color: "#388c46",
@@ -230,6 +237,13 @@ points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 "Linear"
 
 (-0.9, 0.72) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i -o"
+
+(-0.81, 0.97) @{
 color: "#388c46",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
@@ -276,7 +290,7 @@ color: "#388c46",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
-"Cubic -i -o"
+"Cubic -i"
 
 (0.8, -0.25) @{
 color: "#6042a6",
@@ -297,6 +311,13 @@ color: "#000000",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
+"Quadratic -i -o"
+
+(1.66, 2.5) @{
+color: "#c74440",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
 "Quadratic -i"
 
 (1.97, 3.4) @{
@@ -308,6 +329,13 @@ points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 
 (3.17, 4) @{
 color: "#2d70b3",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i -o"
+
+(3.29, 3.87) @{
+color: "#388c46",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
@@ -346,9 +374,23 @@ color: "#2d70b3",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
+"Quadratic -o    "
+
+(4.58, 2.87) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
 "Quadratic"
 
 (4.7, 2.8) @{
+color: "#388c46",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic -i -o"
+
+(4.74, 2.45) @{
 color: "#388c46",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
@@ -361,6 +403,13 @@ points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
 
 "Quadratic -o"
+
+(3.2, 0.91) @{
+color: "#000000",
+points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+}
+
+"Quadratic"
 
 (2.82, 0.96) @{
 color: "#000000",
@@ -412,7 +461,7 @@ errorHidden: true,
 
 "Linear"
 
-(5, -3.4) @{
+(5, -3.5) @{
 color: "#2d70b3",
 points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
 }
