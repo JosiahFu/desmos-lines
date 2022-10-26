@@ -1,508 +1,746 @@
-(5, -3.5) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (5, -3.5) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Circle"
+  "Circle"
 
-(3.5, -5) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.5, -5) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-2.8, -5) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "NONE" },
-}
+  (-2.8, -5) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "NONE" },
+  }
 
-"Circle"
+  "Circle"
 
-(-4.3, -3.5) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-4.3, -3.5) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-4.3, -0.5) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-4.3, -0.5) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-4.05, -0.5) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-4.05, -0.5) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-4.05, 1.55) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-4.05, 1.55) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-3.37, 2.3) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-3.37, 2.3) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-2.5, 1.41) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.5, 1.41) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Exponential"
+  "Exponential"
 
-(-2.7, 0.92) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.7, 0.92) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-3.23, 0.92) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-3.23, 0.92) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-3.23, -0.51) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-3.23, -0.51) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-2.82, -0.51) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.82, -0.51) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-2.4, 0.9) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.4, 0.9) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -o"
+  "Quadratic -o"
 
-(-2.23, 1.19) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.23, 1.19) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Circle"
+  "Circle"
 
-(-2, 1.46) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2, 1.46) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.7, 1.38) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.7, 1.38) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.93, 4) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.93, 4) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.95, 4.01) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.95, 4.01) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.91, 4.44) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.91, 4.44) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.65, 4.99) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.65, 4.99) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.32, 4.89) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.32, 4.89) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.4, 4.29) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.4, 4.29) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.6, 3.9) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.6, 3.9) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.62, 3.91) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.62, 3.91) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.4, 1.29) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.4, 1.29) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.15, 1.21) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.15, 1.21) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Circle"
+  "Circle"
 
-(-1.08, 0.85) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.08, 0.85) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -o -i"
+  "Quadratic -o -i"
 
-(-1.05, 0.72) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.05, 0.72) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i"
+  "Quadratic -i"
 
-(-1.07, 0.62) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.07, 0.62) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.4, -0.51) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.4, -0.51) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.65, -0.51) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.65, -0.51) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.08, -0.08) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.08, -0.08) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.9, 0.55) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.9, 0.55) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-0.9, 0.72) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.9, 0.72) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i -o"
+  "Quadratic -i -o"
 
-(-0.81, 0.97) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.81, 0.97) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i"
+  "Quadratic -i"
 
-(-1.05, 1.31) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.05, 1.31) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.19, 1.35) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.19, 1.35) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(-1.14, 1.5) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.14, 1.5) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(0.7, -0.35) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (0.7, -0.35) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Cubic -i -o"
+  "Cubic -i -o"
 
-(0.79, -0.51) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (0.79, -0.51) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(0.94, -0.51) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (0.94, -0.51) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Cubic -i"
+  "Cubic -i"
 
-(0.8, -0.25) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (0.8, -0.25) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(0.45, 0.1) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (0.45, 0.1) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(1.83, 1.74) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (1.83, 1.74) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i -o"
+  "Quadratic -i -o"
 
-(1.66, 2.5) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (1.66, 2.5) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i"
+  "Quadratic -i"
 
-(1.97, 3.4) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (1.97, 3.4) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -o"
+  "Quadratic -o"
 
-(3.17, 4) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.17, 4) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i -o"
+  "Quadratic -i -o"
 
-(3.29, 3.87) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.29, 3.87) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i"
+  "Quadratic -i"
 
-(3.26, 3.8) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.26, 3.8) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(2.6, 2.95) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (2.6, 2.95) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(2.96, 2.15) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (2.96, 2.15) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(3.81, 1.98) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.81, 1.98) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(4.47, 2.81) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.47, 2.81) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -o    "
+  "Quadratic -o    "
 
-(4.58, 2.87) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.58, 2.87) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic"
+  "Quadratic"
 
-(4.7, 2.8) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.7, 2.8) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i -o"
+  "Quadratic -i -o"
 
-(4.74, 2.45) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.74, 2.45) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -i"
+  "Quadratic -i"
 
-(4.3, 1.38) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.3, 1.38) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic -o"
+  "Quadratic -o"
 
-(3.2, 0.91) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.2, 0.91) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic"
+  "Quadratic"
 
-(2.82, 0.96) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (2.82, 0.96) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(1.75, -0.51) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (1.75, -0.51) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(3.93, -0.51) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.93, -0.51) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(3.93, 0.95) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (3.93, 0.95) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Quadratic"
+  "Quadratic"
 
-(4.75, 1.6) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.75, 1.6) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(4.75, -0.5) @{
-color: "#000000",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (4.75, -0.5) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Linear"
+  "Linear"
 
-(5, -0.5) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-errorHidden: true,
-}
+  (5, -0.5) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+    errorHidden: true,
+  }
 
-"Linear"
+  "Linear"
 
-(5, -3.5) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (5, -3.5) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-(-3, 3.08) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-2.23, 2.99) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-"Cubic -o"
+  "Linear"
 
-(-2, 3.86) @{
-color: "#6042a6",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-1.52, 2.99) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-(-3.5, 2.55) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  "Linear"
 
-"Exponential"
+  (-1.68, 2.43) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-(-3.7, 2.14) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  "Linear"
 
-""
+  (-2.23, 2.99) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-(-5, 2.58) @{
-color: "#c74440",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (-0.58, 2.99) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
 
-(-4.13, 1.71) @{
-color: "#2d70b3",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  "Linear"
 
-(-3.7, 2.14) @{
-color: "#388c46",
-points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
-}
+  (1.47, 2.99) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -i -o"
+
+  (1.43, 2.6) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -i"
+
+  (1.56, 2) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (0.65, 0.92) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (0.11, 0.92) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-0.9, 1.94) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-0.58, 2.99) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  (3.05, 2.99) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (3.92, 2.99) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (3.92, 3.64) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (4.73, 3.64) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (4.73, 3.34) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -o"
+
+  (4.65, 3.36) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic"
+
+  (4.33, 3.22) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (3.76, 2.5) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (3.22, 2.61) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (3.05, 2.99) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  (-3.5, 2.55) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -i"
+
+  (-3.7, 2.14) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Absolute Value"
+
+  (-4.13, 1.71) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Absolute Value"
+
+  (-5, 2.58) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-4.5, 3.05) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -o"
+
+  (-4.16, 3.2) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Exponential"
+
+  (-3.6, 3.7) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -o"
+
+  (-2.52, 4.14) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic"
+
+  (-2, 4.05) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -i -o"
+
+  (-1.93, 3.95) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -i"
+
+  (-2, 3.86) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Cubic"
+
+  (-3, 3.08) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.75, 1.82) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.83, 1.54) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.96, 1.58) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic -o"
+
+  (-2.06, 1.6) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Quadratic"
+
+  (-2.34, 1.47) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-3.45, 2.58) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-3.5, 2.55) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
