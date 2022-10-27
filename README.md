@@ -6,6 +6,7 @@ This code converts a series of points in desmos to equations that connect those 
     - Linear
     - Quadratic
     - Cubic
+    - SquareRoot
 
 > Add -i to make the graph inverted (e.g. x=y^2)  
 > Add -o to use point 2 as the locator instead of point 1
@@ -17,7 +18,7 @@ This code converts a series of points in desmos to equations that connect those 
 
 4. Enable the Text Mode plugin and activate it
 5. Copy and paste your points and comments into `points.txt`
-6. Run 
+6. Run
 
 ```ts-node src/index.ts```
 
