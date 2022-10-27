@@ -60,17 +60,17 @@ const genEquation = (
     const d2 = Math.max(x1,x2);
     const ind = inverted ? 'y' : 'x';
     const dep = inverted ? 'x' : 'y';
-    return `${dep}=${a}${printFunc(`${ind}-${h}`)}+${k}\\left\\{${d1}\\le ${ind}\\le ${d2}\\right\\}`;
+    return `${dep}=${a}${printFunc(`${ind}-${h}`)}+${k}`;
 };
 
 const genLinearEquation = (point1: Point, point2: Point) => {
         if (point1.x == point2.x) {
-            return `x=${point1.x}\\left\\{${Math.min(point1.y,point2.y)}\\le y\\le ${Math.max(point1.y,point2.y)}\\right\\}`;
+            return `x=${point1.x}`;
         } else if (point1.y == point2.y) {
-            return `y=${point1.y}\\left\\{${Math.min(point1.x,point2.x)}\\le x\\le ${Math.max(point1.x,point2.x)}\\right\\}`;
+            return `y=${point1.y}`;
         } else{
             const m = (point1.y - point2.y) / (point1.x - point2.x);
-            return `y=${m}x+${point1.y - m*point1.x}\\left\\{${Math.min(point1.x,point2.x)}\\le x\\le ${Math.max(point1.x,point2.x)}\\right\\}`;
+            return `y=${m}x+${point1.y - m*point1.x}`;
         }
 };
 
