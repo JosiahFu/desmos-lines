@@ -1,3 +1,4 @@
+
   (5, -3.5) @{
     color: "#2d70b3",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
@@ -742,5 +743,57 @@
 
   (-3.5, 2.55) @{
     color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  (-2.3, 0.7) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-2.66, -0.51) @{
+    color: "#388c46",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-2.23, -0.51) @{
+    color: "#6042a6",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.91, 0.59) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  (-1.64, 0.51) @{
+    color: "#000000",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.94, -0.51) @{
+    color: "#c74440",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.52, -0.51) @{
+    color: "#2d70b3",
+    points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
+  }
+
+  "Linear"
+
+  (-1.26, 0.39) @{
+    color: "#388c46",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
