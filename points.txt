@@ -192,14 +192,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -o -i"
+  "SquareRoot -o"
 
   (-1.05, 0.72) @{
     color: "#2d70b3",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (-1.07, 0.62) @{
     color: "#388c46",
@@ -241,14 +241,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (-0.81, 0.97) @{
     color: "#388c46",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (-1.05, 1.31) @{
     color: "#000000",
@@ -311,14 +311,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (1.66, 2.5) @{
     color: "#c74440",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (1.97, 3.4) @{
     color: "#c74440",
@@ -332,14 +332,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (3.29, 3.87) @{
     color: "#388c46",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (3.26, 3.8) @{
     color: "#388c46",
@@ -388,14 +388,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (4.74, 2.45) @{
     color: "#388c46",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (4.3, 1.38) @{
     color: "#6042a6",
@@ -504,14 +504,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (1.43, 2.6) @{
     color: "#6042a6",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (1.56, 2) @{
     color: "#388c46",
@@ -619,7 +619,7 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (-3.7, 2.14) @{
     color: "#388c46",
@@ -675,14 +675,14 @@
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i -o"
+  "SquareRoot -o"
 
   (-1.93, 3.95) @{
     color: "#2d70b3",
     points: @{ opacity: 0.9, size: 9, style: "POINT", drag: "AUTO" },
   }
 
-  "Quadratic -i"
+  "SquareRoot"
 
   (-2, 3.86) @{
     color: "#c74440",
