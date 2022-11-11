@@ -11,7 +11,7 @@ This code converts a series of points in desmos to equations that connect those 
 > Add -i to make the graph inverted (e.g. x=y^2)  
 > Add -o to use point 2 as the "locator" (vertex or point of inflection) instead of point 1
 
-2. Install the [Desmodder](https://chrome.google.com/webstore/detail/desmodder-for-desmos/eclmfdfimjhkmjglgdldedokjaemjfjp) extension ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/desmodder-for-desmos/))
+2. Install the [Desmodder](https://chrome.google.com/webstore/detail/desmodder-for-desmos/eclmfdfimjhkmjglgdldedokjaemjfjp) extension (Use [this link](https://addons.mozilla.org/en-US/firefox/addon/desmodder-for-desmos/) for Firefox)
 3. Install [Node.js](https://nodejs.org/en/download/) and `ts-node`
 
 ```npm install -g ts-node```
