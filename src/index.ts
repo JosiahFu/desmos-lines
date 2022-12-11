@@ -58,7 +58,7 @@ const genEquation = (
     const k = y1;
     const d1 = Math.min(x1,x2);
     const d2 = Math.max(x1,x2);
-    const [ind, dep] = swap('y', 'x', inverted);
+    const [ind, dep] = swap('x', 'y', inverted);
     return `${dep}=${a}${printFunc(`${ind}-${h}`)}+${k}\\left\\{${d1}\\le ${ind}\\le ${d2}\\right\\}`;
 };
 
